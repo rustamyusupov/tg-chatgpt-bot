@@ -12,6 +12,7 @@
     "lint": "eslint --ext .ts ."
   },
   "dependencies": {
+    "openai": "^3.2.1",
     "telegraf": "github:telegraf/telegraf"
   },
   "devDependencies": {
