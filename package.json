@@ -1,0 +1,11 @@
+{
+  "name": "tg-chatgpt-bot",
+  "version": "1.0.0",
+  "description": "Telegram ChatGPT Bot",
+  "author": "Rustam Yusupov",
+  "license": "ISC",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
