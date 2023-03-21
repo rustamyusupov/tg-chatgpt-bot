@@ -6,6 +6,25 @@
   "license": "ISC",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "build": "tsc -p .",
+    "start": "ts-node dist/index.js",
+    "lint": "eslint --ext .ts ."
+  },
+  "dependencies": {
+    "telegraf": "github:telegraf/telegraf"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.21",
+    "prettier": "^2.8.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
   }
 }
